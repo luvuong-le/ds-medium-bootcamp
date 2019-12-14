@@ -9,9 +9,9 @@ import { css, cx } from 'emotion';
 export default { title: 'Buttons', decorators: [withKnobs] };
 
 export const Primary = () => (
-    <Button>Primary Button</Button>
-);
+    <Button>{text('Content', 'Primary Button')}</Button>
+)
 
 export const Secondary = () => (
-    <SecondaryButton>Secondary Button</SecondaryButton>
-);
+    <SecondaryButton>{text('Content', 'Secondary Button')}</SecondaryButton>
+)
