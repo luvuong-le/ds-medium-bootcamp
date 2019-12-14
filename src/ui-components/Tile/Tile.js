@@ -1,6 +1,7 @@
-import React from 'react';
-import { styleConstants } from "../../style-constants";
-import { css, cx } from 'emotion';
+import { css, cx } from 'emotion'
+
+import React from 'react'
+import { styleConstants } from '../../style-constants'
 
 const styles = {
     container: css`
@@ -99,4 +100,4 @@ export default function ({ categoryName, isPopularTopic, title, subTitle, author
         </div>
     );
 }
-//   <Tile></tile>
+
