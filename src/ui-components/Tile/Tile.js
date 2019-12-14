@@ -8,6 +8,11 @@ const styles = {
         flex-direction: column;
     `,
     categoryName: css`
+        color: ${styleConstants.colors.grey};
+        text-decoration: uppercase;
+    `,
+    popularTopic: css`
+        color: ${styleConstants.colors.black};
         text-decoration: uppercase;
     `,
     titlesAndImage: css``,
@@ -24,7 +29,10 @@ const styles = {
 export default function ({ className }) {
     return (
         <div className={cx(styles.container)}>
-            <div className={cx(styles.categoryName)}>TECHNOLOGY Popular Topic</div>
+            <div>
+                <span className={cx(styles.categoryName)}>TECHNOLOGY</span>
+                <span className={cx(styles.popularTopic)}>Popular Topic</span>
+            </div>
             <div className={cx(styles.titlesAndImage)}>
                 <div className={cx(styles.title)}>
                     <div className={cx(styles.heading)}>Incognito Mode Won't Keep Your Browsing Private</div>
