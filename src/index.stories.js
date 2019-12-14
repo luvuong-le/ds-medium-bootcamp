@@ -1,7 +1,8 @@
-import React, { useEffect } from 'react';
-import { addDecorator } from '@storybook/react';
-import { injectGlobal } from 'emotion';
-import { styleConstants } from "./style-constants";
+import React, { useEffect } from 'react'
+
+import { addDecorator } from '@storybook/react'
+import { injectGlobal } from 'emotion'
+import { styleConstants } from './style-constants'
 
 const GlobalStylesDecorator = storyFn => {
   useEffect(() => {
@@ -15,9 +16,9 @@ const GlobalStylesDecorator = storyFn => {
       a {
         text-decoration: none;
       }
-    `;
+    `
   }, [])
   return storyFn()
-};
+}
 
-addDecorator(GlobalStylesDecorator);
+addDecorator(GlobalStylesDecorator)
