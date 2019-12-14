@@ -1,0 +1,26 @@
+{
+  "name": "bootcamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook",
+    "deploy-storybook": "storybook-to-ghpages",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@storybook/addon-knobs": "^5.2.8",
+    "@storybook/addon-viewport": "^5.2.6",
+    "@storybook/react": "^5.2.6",
+    "@storybook/storybook-deployer": "^2.8.1",
+    "babel-loader": "^8.0.6"
+  },
+  "dependencies": {
+    "emotion": "^10.0.23",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
