@@ -1,4 +1,4 @@
-export const unit = value => (value * 16) + 'px';
+export const unit = value => value * 16 + 'px'
 
 export const styleConstants = {
     paddings: {
