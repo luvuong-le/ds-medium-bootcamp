@@ -4,8 +4,8 @@ import { css, cx } from 'emotion';
 
 const styles = {
     container: css`
+        border: 1px solid lightgrey;
         min-width: 450px;
-        border: 1px solid green;
         padding: ${styleConstants.paddings.small};
         display: flex;
         flex-direction: column;
