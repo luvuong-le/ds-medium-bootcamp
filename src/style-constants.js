@@ -21,13 +21,14 @@ export const styleConstants = {
         default: '0 0 0 1px rgba(0,0,0,.15),0 2px 3px rgba(0,0,0,.2)', // cards
     },
     fontNames: {
-        default: 'Georgia',
+        default: 'Arial',
     },
     fontSizes: {
         t025: unit(0.25),
         t050: unit(0.50),
         t075: unit(0.75),
         t080: unit(0.80),
+        t080: unit(0.90),
         t100: unit(1.00),
     },
     fontWeights: {
